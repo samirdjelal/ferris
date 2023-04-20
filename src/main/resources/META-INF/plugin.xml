@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>com.samirdjelal.ferris</id>
+    <name>Ferris</name>
+    <vendor email="ssdjelal@gmail.com">Samir Djelal</vendor>
+
+    <description><![CDATA[
+    The Ferris progress bar plugin is here to enhance your Rust development experience by providing a suitable progress bar.<br>
+    <br>
+    Ferris icon based on the Ferris created by Renee French under Creative Commons 3.0 Attributions.<br><br>
+    This plugin is based on the <a href="https://plugins.jetbrains.com/plugin/8575-nyan-progress-bar">Nyan Progress Bar plugin</a> from Dmitry Batkovich.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <idea-version until-build="311." since-build="202.*"/>
+
+    <applicationListeners>
+        <listener class="com.samirdjelal.ferris.FerrisApplicationComponent" topic="com.intellij.ide.ui.LafManagerListener"/>
+    </applicationListeners>
+</idea-plugin>
