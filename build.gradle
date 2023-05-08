@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.samirdjelal.ferris'
-version '2021.1'
+version '2023.1'
 
 sourceCompatibility = 1.8
 
@@ -28,14 +28,7 @@ patchPluginXml {
 
     changeNotes """
       2021.1: Initial compatibility with 2021.*+<br>
-      2020.3: Initial compatibility with 2020.3<br>
-      2020.2: Initial compatibility with 2020.2<br>
-      2020.1: Initial compatibility with 2020.1<br>
-      2019.2.4: Initial compatibility with 2019.3<br>
-      2019.2.3: Misc internal changes<br>
-      2019.2.2: Correct layout for the progress bar. Misc internal changes<br>
-      2019.2.1: Added plugin icon<br>
-      2019.2: Initial release<br>"""
+      2023.1: Fix compatibility issues<br>"""
 }
 
 publishPlugin {
